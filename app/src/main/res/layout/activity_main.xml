@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/frist1"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="190dp">
+
+
+        <ImageView
+            android:id="@+id/src"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/sun"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weather"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="0dp"
+            android:textSize="35sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="News"
+            android:textColor="#FFC107"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="35sp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&amp; Feed"
+            android:textColor="#FFC107"
+            android:textStyle="bold"
+            android:layout_marginLeft="0dp"
+            android:textSize="35sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Get Start"
+            android:backgroundTint="#FFC107"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:padding="13dp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</RelativeLayout>
