@@ -28,6 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Weather Forecast"
+            android:fontFamily="@font/comic"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="17sp"/>
@@ -52,6 +53,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="25dp"
             android:text="Today"
+            android:fontFamily="@font/lato"
             android:textColor="@color/white"
             android:textSize="15sp"
             android:textStyle="bold" />
@@ -63,6 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:text="@string/date"
+            android:fontFamily="@font/lato"
             android:textColor="@color/white"
             android:layout_marginRight="30dp"
             android:layout_gravity="right"
@@ -88,6 +91,8 @@
         android:text="30"
         android:textSize="30dp"
         android:textStyle="bold"
+        android:fontFamily="@font/lato"
+
         android:textColor="@color/white"
         />
     <TextView
@@ -132,6 +137,7 @@
                    android:layout_height="wrap_content"
                    android:textColor="@color/white"
                    android:textSize="11sp"
+                   android:fontFamily="@font/lato"
                    android:text="A-61/1, South East Delhi , Okhla Industrial Area Phase 2, India" />
        </LinearLayout>
 
@@ -170,6 +176,8 @@
             android:layout_marginLeft="20dp"
             android:text="Today Weather Forecast"
             android:textColor="@color/white"
+            android:fontFamily="@font/lato"
+
             android:textSize="15dp"
             android:textStyle="bold"
 
